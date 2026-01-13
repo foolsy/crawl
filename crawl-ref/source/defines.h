@@ -110,9 +110,9 @@ const int MAPGEN_BORDER    = 2;
 // maximal LOS radius.
 // XXX: uses of this should be replaced depending on the intended behaviour,
 // with LOS_DEFAULT_RANGE or LOS_MAX_RANGE or possibly you.current_vision
-#define LOS_RADIUS 8
+#define LOS_RADIUS 6
 // LOS radius for 'normal' characters
-#define LOS_DEFAULT_RANGE 7
+#define LOS_DEFAULT_RANGE 6
 
 // maximal horizontal or vertical LOS range:
 //   a quadrant needs to fit inside an 2D array with
